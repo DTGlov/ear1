@@ -395,10 +395,6 @@ body{
     height: 48px;
 }
 
-.timeline-section{
-    /* height: 1639px; */
-    /* background: white; */
-}
 
 .timeline-container{
     margin: 56px auto;
@@ -430,10 +426,9 @@ body{
 }
 
 .uk-timeline .uk-timeline-item:not(:last-of-type):before {
-  /* background: black; */
   content: "";
-  height: 200px;
-  left: 19px;
+  height: 175px;
+  left: 9px;
   position: absolute;
   top: 20px;
   width: 0.5px;
@@ -442,8 +437,8 @@ body{
 }
 .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
   margin-top: 20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: grid;
   place-items: center;
   border-radius: 100%;
@@ -455,7 +450,7 @@ body{
   padding: 0 0 0 1rem;
 }
 .tmlnc {
-  padding: 25px 0;
+  padding: 22px 0;
 }
 .uk-timeline-content .tmlnc h5 {
 font-size: 24px;
@@ -501,8 +496,8 @@ opacity: 0.6;
     border-radius: 50px;
     background-color:#029954;
     background-image: url('./assets/pattern2.png');
-    margin-left: 1em;
-    margin-right: 1em;
+     margin-left: 1em; 
+     margin-right: 1em; 
 }
 
 .game-text{
@@ -676,6 +671,10 @@ opacity: 0.6;
 }
 .three-phone{
     display: none;
+}
+
+.form-input{
+    padding: 1.2em;
 }
 @media only screen and (min-width: 992px) {
 
@@ -1070,7 +1069,10 @@ opacity: 0.6;
     }
 
     .uk-timeline .uk-timeline-item:not(:last-of-type):before {
-        height: 200px;
+        height: 165px;
+    }
+    .tmlnc{
+        padding: 18px 0 ;
     }
 
     .game-img{
@@ -1082,7 +1084,7 @@ opacity: 0.6;
     .phone-hand{
         width: 60%;
         margin-left: 4em;
-        margin-top: 9.5em;
+        margin-top: 6.5em;
     }
     .game-t{
         margin-right: 4em;
