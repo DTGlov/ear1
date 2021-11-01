@@ -501,8 +501,8 @@ opacity: 0.6;
     border-radius: 50px;
     background-color:#029954;
     background-image: url('./assets/pattern2.png');
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .game-text{
